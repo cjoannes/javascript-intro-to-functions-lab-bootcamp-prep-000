@@ -40,7 +40,7 @@ describe('sayHiToGrandma(string)', function() {
   })
 
   it('returns "Yes Indeed!" if `string` is uppercase', function() {
-    expect(sayHiToGrandma('HELLO')).toEqual("Yes Indeed!")
+    expect(sayHiToGrandma('HELLO')).toEqual("YES INDEED!")
   })
 
   it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
